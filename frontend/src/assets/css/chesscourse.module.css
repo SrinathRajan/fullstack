@@ -1,0 +1,36 @@
+/* define the CSS styles for the website page and chess course components */
+
+.websitepage {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .chesscourses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .chesscourse {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+  }
+  
+  .chesscourse img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .chesscourse button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

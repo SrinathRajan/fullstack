@@ -1,0 +1,27 @@
+#hlo
+{
+    width: 210px;
+}
+#admain
+{
+    display: flex;
+    color: white;
+    height: 100vh;
+}
+#sidebar{
+    width: 17%;
+    background-color: whitesmoke;
+    color: white
+}
+#contmain
+{
+    text-align: center;
+    background-image: url("../images/homebg.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: black; */
+    width: 87%;
+    height: 100vh;
+}

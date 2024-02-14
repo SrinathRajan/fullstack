@@ -1,0 +1,35 @@
+/* Define some CSS styles */
+.chess-store {
+  font-family: Arial, sans-serif;
+  /* margin: 20px; */
+  color: black;
+  text-align: center;
+  background-color: gray;
+}
+
+.chess-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 30px;
+}
+
+.chess-board {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: lightgrey;
+  height: 130px;
+  
+}
+
+.chess-board img {
+  width: 100%;
+  height: auto;
+}
+
+.chess-board button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
